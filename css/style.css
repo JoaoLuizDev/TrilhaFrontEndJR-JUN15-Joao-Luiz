@@ -1,0 +1,35 @@
+:root {
+    /* Fonte */
+    --fontPrincipal: "Montserrat";
+  
+    /* Cores */
+    --corDefundo: #000000;
+    --corPrincipal: #FFFFFF;
+    --corSecundaria: #F91111;
+    --background-caixa: rgba(53, 53, 53, 0.5);
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--corDefundo);
+    color: var(--corPrincipal);
+    font-family: var(--fontPrincipal);
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}

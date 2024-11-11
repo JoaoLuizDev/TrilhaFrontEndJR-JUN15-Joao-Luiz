@@ -1,0 +1,446 @@
+.background-body-bottom {
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.background-main-top {
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    transform: rotate(180deg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    position: relative;
+}
+
+#sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+}
+
+#sobre-mim .foto {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+#sobre-mim h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 24px 0 8px 0;
+}
+
+.sub-titulo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.texto {
+    text-align: justify;
+    margin: 45px 0 70px;
+    line-height: 1.6;
+}
+
+.destaque {
+    color: var(--corSecundaria);
+    font-weight: 700;
+}
+
+#sobre-mim p {
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+#formacao-academica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+}
+
+.formacao {
+    width: calc(100% - 500px); 
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+#curso {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+#periodo {
+    font-size: 20px;
+    padding-top: 8px;}
+
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 24px;
+}
+
+.logo-habilidades {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    width: calc(100% - 380px); 
+    margin: 20px 190px 0;
+}
+
+.logo-habilidades .linha {
+    display: contents; 
+}
+
+.logo-habilidades .coluna {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-habilidades img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.logo-habilidades .tool-name {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo-habilidades .coluna.selected img {
+    opacity: 1;
+}
+
+.logo-habilidades .coluna.selected .tool-name {
+    display: block;
+}
+
+.logo-habilidades .coluna.dimmed img {
+    opacity: 0.3; 
+}
+
+.logo-habilidades .github-logo {
+    filter: invert(100%); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+#hobbies {
+    margin: 40px 0;
+    z-index: 5;
+}
+
+.hobbies-container {
+    border: 2px solid red;
+    background-color: var(--background-caixa);
+    padding: 20px;
+    width: 60%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px; 
+}
+
+.hobbies-text {
+    flex: 1;
+    max-width: 45%; 
+    margin-right: 20px; 
+}
+
+.caixa-titulo {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.hobbies-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.hobbies-container li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.carousel {
+    position: relative;
+    width: 50%; 
+    height: 270px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--background-caixa);
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 24px; 
+    cursor: pointer;
+    z-index: 1; 
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+#motivacoes {
+    padding: 0 0 70px 0;
+    z-index: 5;
+}
+.motivacoes-container {
+    border: 2px solid var(--corSecundaria); 
+    padding: 20px;
+    margin-left: auto;
+    width: 60%; 
+    background-color: rgba(53, 53, 53, 0.5);
+    border-radius: 12px;
+}
+
+.motivacoes-container p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6; 
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 70px 0;
+    padding-bottom: 100px;
+    z-index: 5;
+}
+
+.contato-redes {
+    margin-top: 30px; 
+}
+
+.coluna-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.coluna-redes img {
+    width: 60px; 
+    height: 60px; 
+    transition: transform 0.3s ease; 
+}
+
+.coluna-redes img:hover {
+    transform: scale(1.2); 
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    #sobre-mim .foto {
+        width: 250px;
+        height: 250px;
+    }
+
+    .texto {
+        margin: 45px 50px 70px;
+    }
+
+    .formacao {
+        width: calc(100% - 100px);
+    }
+    #curso {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    #periodo {
+        font-size: 18px;
+    }
+
+    .logo-habilidades {
+        grid-template-columns: repeat(3, 1fr);
+        width: calc(100% - 40px);
+        margin: 20px auto;
+    }
+
+    .logo-habilidades img {
+        max-width: 70px;
+    }
+
+    .hobbies-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hobbies-text {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .motivacoes-container {
+        width: 80%;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #sobre-mim .foto {
+        width: 200px;
+        height: 200px;
+    }
+
+    .texto {
+        margin: 45px 50px 70px;
+    }
+
+    .formacao {
+        width: calc(100% - 100px);
+    }
+
+    #curso {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    #periodo {
+        font-size: 16px;
+    }
+
+    .logo-habilidades img {
+        max-width: 60px;
+    }
+
+    .logo-habilidades {
+        grid-template-columns: repeat(2, 1fr);
+        width: calc(100% - 20px);
+        margin: 20px auto;
+    }
+
+    .hobbies-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hobbies-text {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .motivacoes-container {
+        width: 90%;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #sobre-mim .foto {
+        width: 150px;
+        height: 150px;
+    }
+
+    .texto {
+        margin: 45px 20px 70px;
+    }
+
+    .formacao {
+        width: calc(100% - 100px);
+    }
+
+    #curso {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    #periodo {
+        font-size: 14px;
+    }
+
+    .logo-habilidades img {
+        max-width: 50px;
+    }
+
+    .logo-habilidades {
+        grid-template-columns: 1fr;
+        width: calc(100% - 20px);
+        margin: 20px auto;
+    }
+
+    .hobbies-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hobbies-text {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .motivacoes-container {
+        width: 100%;
+        margin-right: auto;
+    }
+}

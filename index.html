@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Trilha Código Certo - Front-End</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <img src="images/background.png" class="background-body-bottom" alt="background">
+
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo do Código Certo">
+    
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="#formacao-academica">Formação Acadêmica</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#motivacoes">Motivações</a></li>
+                    <li><a href="#contato" class="contato-header">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <img src="images/background.png" class="background-main-top" alt="background">
+    
+            <section id="sobre-mim">
+                <img class="foto" src="images/foto.jpeg" alt="foto do desenvolver em estilo desenho">
+    
+                <h1>João Luiz</h1>
+                <h2 class="sub-titulo">DevOps / FinOps</h2>
+    
+                <div class="texto">
+                    <p>Prazer, meu nome é João Luiz, mas pode me chamar de Jota. Tenho 34 anos, moro em Ubatuba, litoral norte de São Paulo. Sou apaixonado por tecnologia, games, livros, música e futebol.Estou no 7º semestre de <span class="destaque">Ciência da Computação</span> na Universidade Anhembi Morumbi. Atualmente, faço estágio em T.I., no qual desenvolvo habilidades como suporte ao usuário, manutenção de desktops e configuração de dispositivos.</p>
+                    <p>Tenho experiência em rotina administrativa, vendas e 12 anos como professor de História na rede pública de educação. Estou em transição de carreira para área de tecnologia. Meu foco é trabalhar com <span class="destaque">DevOps</span> e <span class="destaque">FinOps</span>. Tenho certificações em <span class="destaque">Cloud</span> na AWS e Azure.</p>
+                </div>
+            </section>
+    
+            <section id="formacao-academica">
+                <h2 class="sub-titulo">Formação Acadêmica</h2>
+    
+                <div class="formacao">
+                    <p id=curso>Ciência da Computação - Universidade Anhembi Morumbi</p>
+                    <p id=periodo><strong>Início:</strong> Julho /2021</p>
+                    <p id=periodo><strong>Previsão Conclusão:</strong>  Junho /2025</p>  
+                </div>
+            </section>
+    
+            <section id="habilidades">
+                <h2 class="sub-titulo">Habilidades</h2>
+                <div class="logo-habilidades">
+                    <div class="linha">
+                        <div class="coluna">
+                            <img src="images/html.png" alt="Logo HTML" onclick="selectTool(this)">
+                            <span class="tool-name">HTML</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/css.png" alt="Logo CSS" onclick="selectTool(this)">
+                            <span class="tool-name">CSS</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/git.png" alt="Logo Git" onclick="selectTool(this)">
+                            <span class="tool-name">Git</span>
+                        </div>
+                        <div class="coluna">
+                            <img class="github-logo" src="images/github.png" alt="Logo Github" onclick="selectTool(this)">
+                            <span class="tool-name">GitHub</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/figma.png" alt="Logo Figma" onclick="selectTool(this)">
+                            <span class="tool-name">Figma</span>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="coluna">
+                            <img src="images/linux.jpeg" alt="Logo Linux" onclick="selectTool(this)">
+                            <span class="tool-name">Linux</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/aws.png" alt="Logo AWS" onclick="selectTool(this)">
+                            <span class="tool-name">AWS</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/gcp.png" alt="Logo Google Cloud" onclick="selectTool(this)">
+                            <span class="tool-name">Google Cloud</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/azure.png" alt="Logo Azure" onclick="selectTool(this)">
+                            <span class="tool-name">Azure</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/terraform.png" alt="Logo Terraform" onclick="selectTool(this)">
+                            <span class="tool-name">Terraform</span>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="coluna">
+                            <img src="images/docker.png" alt="Logo Docker" onclick="selectTool(this)">
+                            <span class="tool-name">Docker</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/salesforce.png" alt="Logo Salesforce" onclick="selectTool(this)">
+                            <span class="tool-name">Salesforce</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/grafana.png" alt="Logo Grafana" onclick="selectTool(this)">
+                            <span class="tool-name">Grafana</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/six-sigma.png" alt="Logo Six Sigma" onclick="selectTool(this)">
+                            <span class="tool-name">Six Sigma</span>
+                        </div>
+                        <div class="coluna">
+                            <img src="images/power-bi.png" alt="Logo Power BI" onclick="selectTool(this)">
+                            <span class="tool-name">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="hobbies">
+                <div class="hobbies-container">
+                    <div class="hobbies-text">
+                        <h3 class="caixa-titulo">Hobbies</h3>
+                        <ul>
+                            <li>Ler livros;</li>
+                            <li>Jogar e assistir futebol;</li>
+                            <li>Tênis de mesa;</li>
+                            <li>Praia</li>
+                            <li>Assistir séries;</li>
+                            <li>Estudar e aprender.</li> 
+                        </ul>
+                    </div>
+    
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item"><img src="images/estudar-aprender.jpg" alt="foto de um notebook"></div>
+                            <div class="carousel-item active"><img src="images/livros.png" alt="foto da minha estante de livros"></div>
+                            <div class="carousel-item"><img src="images/palmeiras.PNG" alt="foto do estádio do Palmeiras"></div>
+                            <div class="carousel-item"><img src="images/tenis.jpg" alt="foto de uma mesa e raquete de tênis de mesa"></div>
+                            <div class="carousel-item"><img src="images/praia.jpg" alt="foto de praia de Ubatuba"></div>
+                            <div class="carousel-item"><img src="images/netflix.jpg" alt="foto do logo da Netflix"></div>
+                            <div class="carousel-item"><img src="images/estudar-aprender.jpg" alt="foto de um notebook"></div>
+                            <div class="carousel-item"><img src="images/livros.png" alt="foto da minha estante de livros"></div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="motivacoes">
+                <div class="motivacoes-container">
+                    <h3 class="caixa-titulo">Motivações</h3>
+                    <p>Minha motivação para ingressar na Código Certo vem do desejo de aprender continuamente, trocar conhecimentos e compartilhar ideias em um ambiente colaborativo.</p>
+                    <p>Quero fazer parte de uma comunidade onde possa conhecer novas pessoas, expandir minhas perspectivas e contribuir com o crescimento de todos ao meu redor.</p>
+                    <p>Além disso, vejo nessa oportunidade a chance de desenvolver tanto minhas habilidades técnicas quanto interpessoais, preparando-me melhor para os desafios do mercado de trabalho.</p>
+                </div>
+            </section>
+    
+            <section id="contato">
+                <h2 class="sub-titulo">Contato</h2>
+    
+                <div class="contato-redes">
+                    <div class="coluna-redes">
+                        <a href="linkedin.com/in/joaoluizbr" target="_blank"><img src="images/linkedin.png" alt="ícone do LinkedIn para contato"></a>
+                        <a href="mailto:joaoluizcienciacomp@gmail.com?subject=Contato&body=Olá, gostaria de mais informações..."><img src="images/gmail.png" alt="ícone do Gmail para entrar em contato"></a>
+                        <a href="https://www.youtube.com/@joaoluizcienciacomp" target="_blank"><img src="images/youtube.png" alt="ícone do Youtube para entrar em contato"></a>
+                        <a href="https://www.instagram.com/jlcloudtec" target="_blank"><img src="images/instagram.png" alt="ícone do Instagram para entrar em contato"></a>
+                        <a href="https://github.com/JoaoLuizDev" target="_blank"><img src="images/github-contato.png" alt="ícone do GitHub para entrar em contato"></a>
+                        <a href="https://wa.me/5512981241539?text=Olá, gostaria de mais informações." target="_blank"><img src="images/whatsapp.png" alt="ícone do WhatsApp para entrar em contato"></a>
+                          
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <p>© 2024 - Desenvolvido por João Luiz</p>
+        </footer>
+    
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const slides = document.querySelectorAll('.carousel-item');
+        const totalSlides = slides.length;
+    
+        function showSlide(index) {
+            if (index >= totalSlides) {
+                currentSlide = 1;
+                document.querySelector('.carousel-inner').style.transition = 'none';
+                document.querySelector('.carousel-inner').style.transform = `translateX(-${currentSlide * 100}%)`;
+                setTimeout(() => {
+                    document.querySelector('.carousel-inner').style.transition = 'transform 0.5s ease-in-out';
+                    showSlide(currentSlide + 1);
+                }, 50);
+                return;
+            } else if (index < 0) {
+                currentSlide = totalSlides - 2;
+                document.querySelector('.carousel-inner').style.transition = 'none';
+                document.querySelector('.carousel-inner').style.transform = `translateX(-${currentSlide * 100}%)`;
+                setTimeout(() => {
+                    document.querySelector('.carousel-inner').style.transition = 'transform 0.5s ease-in-out';
+                    showSlide(currentSlide - 1);
+                }, 50);
+                return;
+            }
+    
+            currentSlide = index;
+            const offset = -currentSlide * 100;
+            document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+        }
+    
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+    
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.carousel-inner').style.transform = `translateX(-${currentSlide * 100}%)`;
+        });
+
+        function selectTool(selectedImg) {
+            const columns = document.querySelectorAll('.logo-habilidades .coluna');
+            let isSelected = false;
+            columns.forEach(col => {
+                if (col.contains(selectedImg)) {
+                    isSelected = col.classList.toggle('selected');
+                } else {
+                    col.classList.remove('selected');
+                }
+            });
+            columns.forEach(col => {
+                if (!col.contains(selectedImg)) {
+                    col.classList.toggle('dimmed', isSelected);
+                } else {
+                    col.classList.remove('dimmed');
+                }
+            });
+        }
+
+    document.addEventListener('click', (event) => {
+        const columns = document.querySelectorAll('.logo-habilidades .coluna');
+        let clickedInside = false;
+        columns.forEach(col => {
+            if (col.contains(event.target)) {
+                clickedInside = true;
+            }
+        });
+        if (!clickedInside) {
+            columns.forEach(col => {
+                col.classList.remove('selected');
+                col.classList.remove('dimmed'); 
+            });
+        }
+    });
+    </script>
+</body>
+</html>
+
+

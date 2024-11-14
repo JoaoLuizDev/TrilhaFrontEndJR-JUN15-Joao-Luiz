@@ -13,9 +13,10 @@ Este arquivo contém links relacionados ao deploy e aos recursos utilizados no d
 
 ## Demonstração em Vídeo
 Veja abaixo a demonstração completa do funcionamento da página:
-<iframe width="560" height="315" src="https://youtu.be/CKt_mb0Gbrs" frameborder="0" allowfullscreen></iframe>
 
-- [Vídeo de demonstração](/docs/video/demonstração.mp4)
+
+https://github.com/user-attachments/assets/8d385085-dbbd-4e9e-8240-ae3a90b4a0ab
+
 
 ## Prints da Tela
 Aqui estão algumas capturas de tela do site:
